@@ -1,0 +1,211 @@
+html {
+	color:Black;
+	position:relative;
+	font-family: 'Dosis', sans-serif;
+}
+
+
+
+body {
+   background-image: url("beach1.jpg");
+	  
+  background-color: #000000;
+  background-size: cover;
+  z-index: -1;  
+  opacity: 1;
+}
+
+
+
+
+h1 {
+	color:White;
+	text-align:center;
+	text-shadow: 0 0 3px #000000;
+}
+
+h3 {
+	color:White;
+	text-align:center;
+}
+
+p {
+	color:White;
+	text-align:center;
+}
+
+
+#upload {
+	
+    background-color: #ffffff;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /* border: 1px solid black;  */
+    padding: 25px;
+    margin-left: 30%;
+	margin-right: 30%;
+
+	
+}
+#container{
+	background-color:#efe8e8;
+	padding:1%;
+	padding-left:10%;
+	/*opacity: 0.6;
+    filter: alpha(opacity=60);*/
+	
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* -------------  Top side text on display page  -------------*/
+ #note p { 
+	color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+
+#picture{
+	background: #fff;
+   /* padding: 0.8em;*/
+    border: solid 2px #ddd;
+	float:left;
+	margin: 0;
+    width: 350px;
+    height: 320px;
+	position:relative;
+	margin-left:200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#options {
+	/* position:relative;
+	 float:right;
+     width:30%;*/
+	
+}
+
+#options select {
+/*	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	width:400px;
+	height:424px;
+	size: 30px;	
+}
+
+#options select option {
+	font-size: 20px;
+/*	color:#ffffff;  */
+	padding: 16px 26px;	
+/*	background-color: grey;*/
+	border: 1px solid transparent;
+	border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+	
+}
+
+#options select option:hover {
+	background-color:#2196f3;
+}
+
+#Submit_btn {
+	margin:0px;
+	padding:0px;
+	width:400px;
+	height:80px;
+	font-size: 20px;
+	color:#483030;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	
+}
+
+#Submit_btn:hover {
+    background-color: #2196f3; 
+    color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+/************** for Drag and Drop form ****************/
+
+
+
+input#selectfile {
+    height: 200px;
+    width: 99%;
+	border:groove;
+	
+	font-size: 18px;
+}
+
+#drop_file_zone {
+        background-color: #EEE; 
+        border: #999 2px dashed;
+        width: 81%; 
+		margin-left:8%;
+        height: 233px;
+        padding: 8px;
+        font-size: 18px;
+    }
+    #drag_upload_file {
+        width:50%;
+        margin:0 auto;
+    }
+    #drag_upload_file p {
+        text-align: center;
+    }
+    #drag_upload_file #selectfile {
+        display: none;
+    }
+	
+#Upload_image input[type="submit"] {
+    height: 30px;
+    width: 100%;
+	font-size: 20px;
+	color:#000000;
+	background-color: #63ace6;
+	border:none;
+	
+}
+
+#Upload_image input[type="submit"]:hover {
+    background-color: #2196f3; 
+	border: none;
+    color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+	/*************Submit Page*********/
+	
+h2, h4 {
+	
+	color: White;
+	text-align:center;
+	text-shadow: 1px 1px 2px #000000;
+}
+h4 {
+	font-size:19px;
+}
+
+h2 {
+	padding-top: 12%;
+    font-size: 40px;
+}
+
+a {
+	text-shadow:none; 
+	color:#0006ff
+}
+	
+	
+	
+	
